@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+.background {
+    font-family:sans-serif;
+    background:#B4E2F5;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.ignorePadding, nav {
+    width: calc(100% + 60px);
+    margin-left:-30px;
+}
+.content {
+    background: whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+    min-height:100vh;
+    width: 80vw;
+    padding:30px;
+    padding-top:-30px;
+}
+.clearFloat {
+    clear:both;
+}
+/* Nav Bar */
+nav {
+    background-color:#333;
+    font-family:'Lato',sans-serif;
+    vertical-align:center;
+    color:white;
+}
+
+nav ul {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    width:100%;
+    color:white;
+}
+nav li {
+    float:left;
+}
+nav li a {
+    display: block;
+    padding:14px 16px;
+    text-align:center;
+    background-color:#333;
+    text-decoration: none;
+    font-weight:600;
+    color:white;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color:navy;
+}
+/* End Nav */
+
+h1, h2, h3{
+    text-align:center;
+    font-family:'Tahoma',sans-serif;
+    font-weight:400;
+    color:navy;
+}
+
+h1{
+    margin-top:0;
+    padding-top:0;
+    font-size:2.5em;
+    font-weight:bold;
+}
+
+h2 {
+    font-size:1.9em;
+}
+h3 {
+    font-size:1.5em;
+}
+p {
+    line-height:150%;
+    font-family:'Lato',sans-serif;
+}
+
+h3.post {
+    padding-top:0;
+    font-size:1.17em;
+}
+
+#airportDescription {
+    text-align:justify;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.post, .nopost{
+    padding-top:0;
+    padding:30px;
+    border-radius:30px;
+    border: 3px solid navy;
+    margin-bottom:1em;
+    margin-left:0.5em;
+}
+
+/* TODO .post - class that encapsulates all posts on airport feed */
+.post {
+    
+    margin-bottom:1em;
+    margin-left:.5em;
+}
+#postTitle {
+    font-size:1.25em;
+    text-align:center;
+    font-weight:bold;
+}
+#postName {
+    margin-top:.5em;
+    color:grey;
+    text-align:center;
+}
+
+#postLinks {
+    text-align:center;
+}
+
+/* TODO .noPost - class that encapsulates an error when no posts exist at an airport */
+
+
+
+
